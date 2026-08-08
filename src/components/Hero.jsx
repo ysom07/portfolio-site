@@ -98,13 +98,6 @@ export default function Hero({ profile }) {
             className="mt-9 flex flex-wrap items-center gap-4"
           >
             <a
-              href={profile.resumeUrl}
-              className="rounded-full bg-ink-900 px-6 py-3 text-sm font-medium text-white transition-transform hover:-translate-y-0.5"
-              download
-            >
-              Download resume
-            </a>
-            <a
               href={profile.socials.github}
               target="_blank"
               rel="noreferrer"

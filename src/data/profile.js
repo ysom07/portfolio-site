@@ -13,7 +13,7 @@ export const profile = {
   },
   about: [
     "I'm a Master's student in Data Science at <strong>Columbia University</strong>, currently working as an <strong>AI/ML Research Intern</strong> at the New York Genome Center, where I build large-scale autoregressive foundation models with state-space architectures for sequence modeling problems where Transformers break down at scale.",
-    "Before Columbia, I spent about three years as a Data Engineer at Cognizant, building production ML pipelines and real-time fraud detection systems. My interests sit at the intersection of multimodal systems, agentic AI, and AI safety and ethics, and I care as much about whether a model can be trusted as I do about whether it's capable, especially at inference time, where most of what actually makes a model useful gets decided.",
+    "Before Columbia, I spent about three years as an ML Engineer at Cognizant, building production ML pipelines and real-time fraud detection systems. My interests sit at the intersection of multimodal systems, agentic AI, and AI safety and ethics, and I care as much about whether a model can be trusted as I do about whether it's capable, especially at inference time, where most of what actually makes a model useful gets decided.",
   ],
   skills: [
     {
@@ -95,7 +95,7 @@ export const profile = {
       ],
     },
     {
-      role: "Data Engineer",
+      role: "ML Engineer",
       org: "Cognizant",
       logo: "/logos/cognizant.png",
       period: "Oct 2022 — Jul 2025",

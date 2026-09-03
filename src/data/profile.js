@@ -7,7 +7,7 @@ export const profile = {
   email: "swmyerraguntla@gmail.com",
   resumeUrl: "/resume.pdf",
   socials: {
-    github: "https://github.com/ysowmya2000",
+    github: "https://github.com/ysom07",
     linkedin: "https://www.linkedin.com/in/sowmyayerraguntla/",
     email: "mailto:swmyerraguntla@gmail.com",
   },
@@ -136,7 +136,7 @@ export const profile = {
       image: "/projects/rag-ingestion-pipeline.svg",
       description: "An incrementally-updating RAG ingestion pipeline that keeps a hybrid vector and keyword index in sync with live Wikipedia and arXiv sources, deployed on AWS with Lambda, SQS, and ECS Fargate.",
       tags: ["Python", "AWS", "pgvector", "RAG"],
-      links: { github: "https://github.com/ysowmya2000/rag-ingestion-pipeline" },
+      links: { github: "https://github.com/ysom07/rag-ingestion-pipeline" },
     },
     {
       title: "Trip Optimizer",
@@ -145,7 +145,7 @@ export const profile = {
       image: "/projects/trip-optimizer.svg",
       description: "A multi-agent travel planner that builds budget-aware itineraries using retrieval-augmented search, live attraction data, and TSP-based route optimization across 90+ cities and 49 currencies.",
       tags: ["Python", "FastAPI", "React", "Multi-Agent"],
-      links: { github: "https://github.com/ysowmya2000/trip-optimizer" },
+      links: { github: "https://github.com/ysom07/trip-optimizer" },
     },
     {
       title: "KV Cache Efficiency",
@@ -154,7 +154,7 @@ export const profile = {
       image: "/projects/kv-cache-efficiency.svg",
       description: "A benchmarking study of KV cache compression techniques like StreamingLLM and PagedAttention, plus cross-request KV reuse under vLLM prefix caching, measuring the memory-quality tradeoff for long-context LLM serving.",
       tags: ["PyTorch", "vLLM", "LLM Serving"],
-      links: { github: "https://github.com/ysowmya2000/kv-cache-efficiency" },
+      links: { github: "https://github.com/ysom07/kv-cache-efficiency" },
     },
     {
       title: "MCP Guardrail Gateway",
@@ -163,7 +163,7 @@ export const profile = {
       image: "/projects/mcp-guardrail-gateway.svg",
       description: "A proxy that layers a deterministic policy gate under an LLM judge to guard AI agent tool calls, validated against an adaptive attacker across finance, DevOps, and healthcare tool domains.",
       tags: ["Python", "FastAPI", "LangGraph", "AI Safety"],
-      links: { github: "https://github.com/ysowmya2000/mcp-guardrail-gateway" },
+      links: { github: "https://github.com/ysom07/mcp-guardrail-gateway" },
     },
     {
       title: "TruthLens",
@@ -172,7 +172,7 @@ export const profile = {
       image: "/projects/truthlens.svg",
       description: "An end-to-end fake news detection pipeline benchmarking classical ML, sentence embeddings, and fine-tuned RoBERTa transformers, improving macro F1 from 0.45 to 0.55 across three generations of modeling.",
       tags: ["PyTorch", "HuggingFace", "NLP"],
-      links: { github: "https://github.com/ysowmya2000/TruthLens-A-Hybrid-Machine-Learning-and-Transformer-Framework-for-Fake-News-Detection" },
+      links: { github: "https://github.com/ysom07/TruthLens-A-Hybrid-Machine-Learning-and-Transformer-Framework-for-Fake-News-Detection" },
     },
   ],
   education: [

@@ -165,6 +165,24 @@ export const profile = {
       tags: ["Python", "FastAPI", "LangGraph", "AI Safety"],
       links: { github: "https://github.com/ysom07/mcp-guardrail-gateway" },
     },
+    {
+      title: "Creator Lifecycle Intelligence Platform",
+      category: "Causal Inference",
+      year: "2026",
+      image: "/projects/creator-lifecycle-platform.svg",
+      description: "A three-module survival analysis on 168K+ podcast creators, separating true churn from creators who go quiet and later return, and testing whether monetization causally drives retention.",
+      tags: ["Python", "XGBoost", "Causal Inference", "Survival Analysis"],
+      links: { github: "https://github.com/ysom07/creator-lifecycle-platform" },
+    },
+    {
+      title: "TrueSignal",
+      category: "Multimodal AI",
+      year: "2026",
+      image: "/projects/truesignal.svg",
+      description: "A real-time multimodal system detecting emotional incongruence across face, voice, and text, using a fine-tuned Qwen2-VL-7B model and a five-agent LangChain pipeline, reaching 0.99 F1 on the MELD benchmark.",
+      tags: ["LangChain", "QLoRA", "Multimodal AI", "Python"],
+      links: { github: "https://github.com/ysom07/TrueSignal" },
+    },
   ],
   education: [
     {

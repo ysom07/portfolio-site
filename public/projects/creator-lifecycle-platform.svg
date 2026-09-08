@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgcl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ecfccb"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#bgcl)"/>
+  <g stroke="#4338ca" stroke-width="2" fill="none">
+    <path d="M50 190 L110 150 L170 165 L230 100 L290 120 L350 70"/>
+  </g>
+  <circle cx="50" cy="190" r="5" fill="#4338ca"/>
+  <circle cx="110" cy="150" r="5" fill="#4338ca"/>
+  <circle cx="170" cy="165" r="5" fill="#0ea5e9"/>
+  <circle cx="230" cy="100" r="5" fill="#4338ca"/>
+  <circle cx="290" cy="120" r="5" fill="#0ea5e9"/>
+  <circle cx="350" cy="70" r="5" fill="#4338ca"/>
+  <g stroke="#8b5cf6" stroke-width="2" stroke-dasharray="4 6" fill="none">
+    <path d="M150 200 Q200 40 260 200"/>
+  </g>
+</svg>

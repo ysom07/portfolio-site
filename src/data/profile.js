@@ -165,15 +165,6 @@ export const profile = {
       tags: ["Python", "FastAPI", "LangGraph", "AI Safety"],
       links: { github: "https://github.com/ysom07/mcp-guardrail-gateway" },
     },
-    {
-      title: "TruthLens",
-      category: "Transformers · MLP",
-      year: "2025",
-      image: "/projects/truthlens.svg",
-      description: "An end-to-end fake news detection pipeline benchmarking classical ML, sentence embeddings, and fine-tuned RoBERTa transformers, improving macro F1 from 0.45 to 0.55 across three generations of modeling.",
-      tags: ["PyTorch", "HuggingFace", "NLP"],
-      links: { github: "https://github.com/ysom07/TruthLens-A-Hybrid-Machine-Learning-and-Transformer-Framework-for-Fake-News-Detection" },
-    },
   ],
   education: [
     {

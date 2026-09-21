@@ -77,21 +77,22 @@ export const profile = {
       role: "AI/ML Research Intern",
       org: "New York Genome Center",
       logo: "/logos/nygc.png",
-      period: "May 2026 — Present",
+      period: "May 2026 — Sep 2026",
       location: "New York, NY",
       bullets: [
-        "Built a two-tower Mamba SSM from scratch, combining a bidirectional encoder with a causal autoregressive decoder, achieving a 53x improvement over a Hyena baseline on sequence-to-sequence structure prediction across 157K held-out test examples at a 50K token sequence length.",
-        "Scaled conditional sequence model training to 5.5M examples across 35 conditioning classes, improving held-out ranking correlation from 0.00 to 0.19 by introducing class-aware regression targets, enabling context-dependent output prediction from raw sequence input alone.",
+        "Trained a two-tower bidirectional Mamba SSM from scratch for long-sequence conditional modeling at 50K token context across 5.5M training examples and 35 conditioning classes, achieving 53x F1 improvement over a prior SSM baseline on 157K held-out examples.",
+        "Designed a softmax ranking architecture with ListNet loss, gradient checkpointing, and gene-specific embeddings to predict conditional output distributions from raw sequence input, lifting held-out ranking Pearson from 0.000 to 0.192 across 20K classes.",
       ],
     },
     {
       role: "ML Researcher",
       org: "Columbia Business School",
       logo: "/logos/columbia.png",
-      period: "Jun 2026 — Present",
+      period: "Jun 2026 — Aug 2026",
       location: "New York, NY",
       bullets: [
-        "Built a misinformation scoring pipeline for Bluesky posts, combining source-quality signals, a LightGBM linguistic classifier, and a DeBERTa-v3 semantic model with domain-adversarial training (DANN), fused via dynamic three-state weighting.",
+        "Built unsupervised misinformation pipeline on 553 Bluesky posts and 1,770 quotes via AT Protocol, sentence-transformers, and Llama 3, finding 84% of detected mutation occurs at the first propagation hop, confirmed via a 3.5x scale-up.",
+        "Engineered dual-signal mutation detector combining semantic drift scoring with rule-based NLP, showing embeddings alone miss real distortions and source removal dominates across 40% of cases, deployed via FastAPI and Streamlit.",
       ],
     },
     {
@@ -101,8 +102,9 @@ export const profile = {
       period: "Oct 2022 — Jul 2025",
       location: "Bangalore, India",
       bullets: [
-        "Designed and trained an autoencoder-based anomaly detection model for real-time fraud scoring on imbalanced transaction data, improving precision-recall AUC by 20% over a tuned XGBoost baseline, deployed on AWS SageMaker with sub-100ms inference latency.",
-        "Built a Kafka + PySpark streaming pipeline serving a real-time fraud detection model on 5M+ daily transactions, cutting inference latency by 50% while maintaining a 99.9% uptime SLA.",
+        "Deployed an Autoencoder fraud scoring model on AWS SageMaker, improving precision-recall AUC by 20% over XGBoost on imbalanced transaction data with sub-100ms inference latency.",
+        "Engineered a Kafka and PySpark streaming pipeline serving a real-time fraud detection model across 5M+ daily transactions, cutting inference latency by 50% and sustaining 99.9% uptime SLA.",
+        "Built a production monitoring framework for the same fraud detection system, tracking PSI drift and prediction degradation, automating alerts that cut mean-time-to-detect by 60% across live models.",
       ],
     },
     {
@@ -123,7 +125,7 @@ export const profile = {
       period: "Jan 2022 — Jun 2022",
       location: "Singapore",
       bullets: [
-        "Developed a viral mutation prediction platform using ensemble ML methods, LSTM neural networks, and graph-based analysis, achieving 0.78 AUC identifying high-risk mutation patterns across 500+ viral sequences.",
+        "Developed a viral mutation prediction platform using ensemble ML methods, LSTM neural networks, and graph-based analysis, achieving 0.78 AUC identifying high-risk mutation patterns across 1200+ viral sequences.",
         "Built an ML pipeline combining time series forecasting, network topology analysis, and ensemble modeling to predict viral evolution patterns and identify 200+ novel conserved therapeutic targets.",
       ],
     },
